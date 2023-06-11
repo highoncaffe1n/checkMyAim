@@ -1,6 +1,5 @@
 import func
 
-videoName = 'test.mp4'
-print(func.check_format(videoName))
+print(func.does_input_exists())
 
 

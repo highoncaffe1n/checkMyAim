@@ -1,16 +1,14 @@
 import os
 import cv2
-
-# checks the format of the input video
-def check_format(video):
-    os.listdir('/video input/')
-    file_name, file_extension = os.path.splitext('/video input/' + str(video))
-    return file_extension
+import glob
 
 
-# converts the video to a mp4 file
-def convert_to_mp4(video, vid_format):
-    pass
+# check if an .mp4 file exists in the video input directory
+def does_input_exists():
+    files = []
+    for i in glob.glob(r'video input/*.mp4'):
+        files.append(i)
+    return files
 
 
 # checks the framerate of the input video
