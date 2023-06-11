@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 import IPython.display as ipd
 from tqdm.notebook import tqdm
 import subprocess
-import ffmpeg
 
 
 # check if an input file exists in the video input directory and return the path
