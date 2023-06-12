@@ -2,7 +2,7 @@
 ### Step 1: DATA CREATION
 #### Setup:
 1. Download ffmpeg to your local machine: https://ffmpeg.org/download.html
-2. Copy the path if the bin folder form your local ffmpeg installation.
+2. Copy the path of the bin folder form your local ffmpeg installation.
 3. Insert the path on data_creation.py in ffmpegpath as a string like: ffmpegpath = 'C:\ffmpeg-2023-06-08-git-024c30aa3b-full_build\bin'
 #### Usage:
 1. Put a .mp4 file named input.mp4 into the data_creation directory.
@@ -22,3 +22,8 @@ Positive images show a variety of different situations, in which you can see an 
 4. falling
 5. a Jett mid air
 6. ...
+##### Sorting the frames in negatives and positives
+1. Download FastStone Image Viewer 7.7: https://www.faststone.org/FSIVDownload.htm
+2. Create a folder and import all previous created images in there and create 2 empty folder called negative and positive.
+3. Launch up FastStone and select the folder with the images. 
+4. Go threw the images by using the arrow keys and if you want to move an image to the negative or positive folder press m and select the desired folder.
